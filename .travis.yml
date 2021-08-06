@@ -11,7 +11,7 @@ compiler:
   - gcc
 
 install:
-  - wget --quiet -O - https://raw.githubusercontent.com/r-lyeh/depot/master/travis.pre.sh   | bash -x
+  - wget --quiet -O - https://raw.githubusercontent.com/r-lyeh/depot/master/travis.pre.sh | bash -x
 
 before_script:
   - mkdir build
