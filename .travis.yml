@@ -8,6 +8,9 @@ os:
 compiler:
   - gcc
 
+env:
+  WITH_TESTS=1
+
 before_install:
   - sudo apt-get -y install libgtest-dev
 
