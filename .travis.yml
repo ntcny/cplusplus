@@ -6,8 +6,10 @@ os:
   - linux
 
 compiler:
-  - clang
   - gcc
+
+before_install:
+  - sudo apt-get -y install libgtest-dev
 
 install:
   - wget --quiet -O - https://raw.githubusercontent.com/r-lyeh/depot/master/travis.pre.sh | bash -x
