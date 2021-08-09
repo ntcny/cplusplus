@@ -9,7 +9,7 @@ compiler:
   - gcc
 
 env:
-  WITH_TESTS=1
+  CODECOV_TOKEN='6ea2abaa-7592-425e-9cd3-6375a7834cc8'
 
 before_install:
   - sudo apt-get -y install libgtest-dev
