@@ -35,6 +35,7 @@ jobs:
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
   test:
+    runs-on: ubuntu-latest
     steps:
     - name: Test
       working-directory: ${{github.workspace}}/build
