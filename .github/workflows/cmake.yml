@@ -34,6 +34,10 @@ jobs:
   tests:
     runs-on: ubuntu-latest
     steps:
+
+    steps:
+    - uses: actions/checkout@v2
+    
     - name: PreInstall Gtest
       run: sudo apt-get install libgtest-dev
 
