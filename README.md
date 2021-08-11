@@ -1,6 +1,6 @@
 # cplusplus
 
-[![Build Release](https://github.com/ntnwork/cplusplus/actions/workflows/cmake.yml/badge.svg)](https://github.com/ntnwork/cplusplus/actions/workflows/build.yml)
+[![Build Release](https://github.com/ntnwork/cplusplus/actions/workflows/build.yml/badge.svg)](https://github.com/ntnwork/cplusplus/actions/workflows/build.yml)
 [![Tests](https://github.com/ntnwork/cplusplus/actions/workflows/tests.yml/badge.svg)](https://github.com/ntnwork/cplusplus/actions/workflows/tests.yml)
 
 ![Travis Build](https://travis-ci.com/ntnwork/cplusplus.svg?branch=master)
